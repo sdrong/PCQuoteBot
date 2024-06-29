@@ -36,27 +36,3 @@
     transform: rotate(360deg);
   }
 }
-.app-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-.chat-section, .quote-section {
-  flex: 1;
-  margin: 10px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: auto;
-}
-
-.chat-message.user {
-  text-align: right;
-  color: blue;
-}
-
-.chat-message.bot {
-  text-align: left;
-  color: green;
-}
